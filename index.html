@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nubank.banc — Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <img src="assets/logo.svg" alt="Nubank logo" width="48" height="48">
+        <span class="brand">nubank</span>
+      </a>
+      <nav class="nav-desktop">
+        <a href="#">Produtos</a>
+        <a href="#">Conta</a>
+        <a href="#">Cartão</a>
+        <a href="#">Sobre</a>
+      </nav>
+      <div class="actions">
+        <a class="btn btn-outline" href="#">Entrar</a>
+        <a class="btn btn-primary" href="#">Abra sua conta</a>
+        <button class="burger" id="burger" aria-label="menu">☰</button>
+      </div>
+    </div>
+    <nav class="nav-mobile" id="navMobile">
+      <a href="#">Produtos</a>
+      <a href="#">Conta</a>
+      <a href="#">Cartão</a>
+      <a href="#">Sobre</a>
+      <a class="btn btn-primary" href="#">Abra sua conta</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Um banco diferente, para pessoas diferentes</h1>
+          <p class="lead">Cartão de crédito sem anuidade, conta digital e produtos pensados para simplificar o seu dia a dia.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#">Abra sua conta</a>
+            <a class="btn btn-outline" href="#">Fale com um especialista</a>
+          </div>
+          <ul class="trust">
+            <li>Mais de 60 milhões de clientes</li>
+            <li>Atendimento premiado</li>
+          </ul>
+        </div>
+        <div class="hero-right">
+          <div class="card-mock">
+            <div class="card-top">Cartão Nubank</div>
+            <div class="card-bottom">Sem anuidade · Aceito no mundo todo</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="features container">
+      <h2>Produtos</h2>
+      <div class="cards">
+        <article class="feature">
+          <h3>Conta</h3>
+          <p>Conta digital completa: transferências, pagamentos, investimentos e muito mais.</p>
+        </article>
+        <article class="feature">
+          <h3>Cartão</h3>
+          <p>Cartão sem anuidade, com controle pelo app e limite flexível.</p>
+        </article>
+        <article class="feature">
+          <h3>Empréstimo</h3>
+          <p>Empréstimos com taxas competitivas e simulação rápida.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="Nubank logo" width="36" height="36">
+        <span>nubank</span>
+      </div>
+      <div class="footer-links">
+        <a href="#">Ajuda</a>
+        <a href="#">Carreiras</a>
+        <a href="#">Imprensa</a>
+      </div>
+      <div class="footer-copy">© 2026 Nubank.banc — Clone para fins de demonstração</div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
